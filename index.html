@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="form-section">
+
+    <h1>AI Resume Builder</h1>
+
+    <input type="text" id="name" placeholder="Full Name">
+
+    <input type="text" id="role" placeholder="Professional Role">
+
+    <textarea id="about" placeholder="About You"></textarea>
+
+    <input type="text" id="skills" placeholder="Skills">
+
+    <button onclick="generateResume()">Generate Resume</button>
+
+  </div>
+
+  <div class="resume-section">
+
+    <div class="resume-card">
+
+      <h2 id="resumeName">Your Name</h2>
+
+      <h3 id="resumeRole">Your Role</h3>
+
+      <p id="resumeAbout">
+        About information will appear here.
+      </p>
+
+      <div class="skills-box">
+        <h4>Skills</h4>
+        <p id="resumeSkills">HTML, CSS, JavaScript</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
